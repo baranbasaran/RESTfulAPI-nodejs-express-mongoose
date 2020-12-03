@@ -1,0 +1,37 @@
+GET http://localhost:5000/user
+###
+GET http://localhost:5000/user/country/Norway
+### 
+GET http://localhost:5000/gte/20
+### 
+GET http://localhost:5000/order/age/-1
+###
+GET http://localhost:5000/order/age/1
+###
+DELETE http://localhost:5000/userdelete
+content-type: application/json
+
+{
+    "userName": "Baran"
+}
+
+###
+POST http://localhost:5000/user
+content-type: application/json
+
+{
+    "userName": "Baran",
+    "nickName":"Nopasaran",
+    "age":22,
+    "country":"Turkiye"
+}
+###
+PUT http://localhost:5000/userupdate
+content-type: application/json
+
+{
+    "userName": "Baran",
+    "nickName":"Nopasaran",
+    "age":22,
+    "country":"Turkey"
+}
