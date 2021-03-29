@@ -1,6 +1,6 @@
 # RESTfulAPI-nodejs-express-mongoose
 
-This project includes MongoDB CRUD operations and some aggreation functions.
+This project includes MongoDB CRUD operations and some aggregation functions.
 
 After downloading, configure your mongodb settings from server.js file  then follow the commands below.
 
